@@ -1,1 +1,1 @@
-web: gunicorn app:virtualpaint
+web: gunicorn app:virtual-paint-app
