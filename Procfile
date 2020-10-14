@@ -1,1 +1,1 @@
-web: gunicorn app:virtual-paint-app
+web: gunicorn virtualpaintproject.wsgi
