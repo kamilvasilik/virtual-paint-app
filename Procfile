@@ -1,1 +1,1 @@
-web: waitress-serve virtualpaintproject.wsgi:application
+web: gunicorn virtualpaintproject.wsgi --log-file -
