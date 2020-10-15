@@ -12,7 +12,7 @@ https://docs.djangoproject.com/en/3.1/ref/settings/
 
 from pathlib import Path
 import os
-import django_heroku
+# import django_heroku
 from decouple import config
 import dj_database_url
 
@@ -167,4 +167,4 @@ STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
 MEDIA_URL = '/media/'
 MDEIA_ROOT = os.path.join(BASE_DIR, 'media')
 
-django_heroku.settings(locals())
+# django_heroku.settings(locals())
