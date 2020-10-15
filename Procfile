@@ -1,1 +1,1 @@
-web: waitress-serve virtualpaint:wsgifunc
+web: waitress-serve virtualpaintproject.wsgi:application
