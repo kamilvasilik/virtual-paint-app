@@ -1,1 +1,1 @@
-web: gunicorn virtualpaintproject.wsgi:app --log-file -
+web: gunicorn virtual-paint-app:app --log-file=-
