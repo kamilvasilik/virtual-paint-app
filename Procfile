@@ -1,1 +1,1 @@
-web: gunicorn virtual-paint-app:app --log-file=-
+web: waitress-serve --port=$PORT virtual-paint-app.wsgi:application
