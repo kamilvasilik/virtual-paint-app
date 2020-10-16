@@ -1,1 +1,1 @@
-web: waitress-serve --port=$PORT virtualpaintproject.wsgi:application
+web: waitress-serve --listen=*:$PORT virtualpaintproject.wsgi:application
