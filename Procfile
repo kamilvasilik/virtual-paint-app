@@ -1,1 +1,1 @@
-web: gunicorn virtualpaintproject.wsgi:app
+web: waitress-serve virtualpaintproject.wsgi:application
