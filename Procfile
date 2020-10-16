@@ -1,1 +1,1 @@
-web: waitress-serve --listen=*:$PORT virtualpaintproject.wsgi:application
+web: gunicorn virtualpaintproject.wsgi:application --log-file -
