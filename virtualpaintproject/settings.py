@@ -140,7 +140,7 @@ USE_TZ = True
 # ]
 # STATIC_ROOT = os.path.join(BASE_DIR, 'assets')
 
-PROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))
+PROJECT_ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 # STATIC_ROOT = os.path.join(PROJECT_ROOT, 'staticfiles')
 STATIC_ROOT = os.path.join(PROJECT_ROOT, 'assets')
