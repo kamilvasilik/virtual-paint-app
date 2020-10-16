@@ -16,7 +16,7 @@ class VirtualPaint02(object):
         frameWidth = 640
         frameHeight = 480
         brightness = 100
-        self.cam = cv2.VideoCapture(0)
+        self.cam = cv2.VideoCapture(-1)
         self.cam.set(3, frameWidth)
         self.cam.set(4, frameHeight)
         self.cam.set(10, brightness)
