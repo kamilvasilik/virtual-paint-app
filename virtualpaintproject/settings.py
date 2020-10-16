@@ -44,7 +44,6 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'virtualpaint',
-    'keyboard_shortcuts',
 ]
 
 MIDDLEWARE = [
