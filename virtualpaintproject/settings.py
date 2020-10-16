@@ -47,18 +47,6 @@ INSTALLED_APPS = [
     'keyboard_shortcuts',
 ]
 
-# START keyboard_shortcuts settings #
-HOTKEYS = [
-            {'keys': 'c',  # define color
-            'link': '/index_select/'},
-            {'keys': 'd',  # draw
-            'link': '/'},
-            # {'keys': 's',  # save color
-            # 'link': '/index_select/'},
-        ]
-SPECIAL_DISABLED = True
-# END keyboard_shortcuts settings #
-
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'whitenoise.middleware.WhiteNoiseMiddleware',
